@@ -8,7 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Waterlily
-  m_Shader: {fileID: -6465566751694194690, guid: 3230f6c5d09dd114c82b2287fcc7e15b, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 3230f6c5d09dd114c82b2287fcc7e15b,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -98,7 +99,7 @@ Material:
     - _AlphaClip: 1
     - _AlphaCutoff: 0.5
     - _AlphaToMask: 1
-    - _Alpha_Cutoff: 0.5
+    - _Alpha_Cutoff: 0.668
     - _BEND_WIND_OVERLAY: 0
     - _BOOLEAN_1: 0
     - _Bend: 0

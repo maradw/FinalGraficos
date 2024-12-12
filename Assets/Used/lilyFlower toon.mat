@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ShaderOutline
+  m_Name: lilyFlower toon
   m_Shader: {fileID: -6465566751694194690, guid: 00274c6a0d6a8bd4e8b0110fd85ca3c2,
     type: 3}
   m_Parent: {fileID: 0}
@@ -50,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _text1:
-        m_Texture: {fileID: 2800000, guid: 6ac7dd17046342f498429072a9879660, type: 3}
+        m_Texture: {fileID: 2800000, guid: f558d6e8c61fd7244ad2e6322c9505a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -67,17 +67,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _OutLine: 0.193
+    - _OutLine: 0.704
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RimAmount: 0.7
-    - _RimTheshHold: 0.1
-    - _glossinessDef: 32
+    - _RimTheshHold: 0.127
+    - _alphacutof: 0
+    - _glossinessDef: 28.8
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _OutLineColor: {r: 0, g: 0, b: 0, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 0}
-    - _ambientColor: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 0}
-    - _mainColorDef: {r: 1, g: 1, b: 1, a: 0}
+    - _ambientColor: {r: 0.4660377, g: 0.49839902, b: 1, a: 0}
+    - _mainColorDef: {r: 2.1399693, g: 7.5471697, b: 1.0964754, a: 1}
     - _specularColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: o
-  m_Shader: {fileID: -6465566751694194690, guid: d49e87a363b6bb04f86ff860ee71f9b6,
+  m_Name: Lily flower
+  m_Shader: {fileID: -6465566751694194690, guid: 63799e8fc03bb9d47b5a6a3335da241a,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,12 +24,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _normalT:
-        m_Texture: {fileID: 2800000, guid: 59c834d7074815441bf326d3eb91a0de, type: 3}
+    - _AmbientMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _normalT2XD:
-        m_Texture: {fileID: 2800000, guid: f22870d5335f02e498f6ca3baaaa0f78, type: 3}
+    - _Normalmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _text1:
+        m_Texture: {fileID: 2800000, guid: f558d6e8c61fd7244ad2e6322c9505a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -46,18 +50,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Depth: 1
+    - _Alphaclip: 0.441
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.5
-    - _Strenght: 0.699
-    - _displacement: 0.105
-    - _normalStrenght: 0.43
+    - _RimAmount: 0.525
+    - _RimTheshHold: 0.167
+    - _glossinessDef: 0
     m_Colors:
-    - _Color: {r: 0.14528298, g: 1, b: 0.9908095, a: 0}
-    - _Deep_Color: {r: 0.033321455, g: 0.19198105, b: 0.33962262, a: 0}
+    - _RimColor: {r: 1.2311444, g: 1.2311444, b: 1.2311444, a: 0}
+    - _ambientColor: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 0}
+    - _mainColorDef: {r: 0.8207547, g: 0.18118544, b: 0.7705923, a: 1}
+    - _specularColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &4598312853734469671
+--- !u!114 &5116174427583089296
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
